@@ -2442,7 +2442,7 @@
           ["concat", ["get", "name:latin"], " ", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Italic"],
+        "text-font": ["Roboto Italic"],
         "text-letter-spacing": 0.2,
         "text-max-width": 5,
         "text-size": 14
@@ -2472,7 +2472,7 @@
           ["concat", ["get", "name:latin"], "\n", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Italic"],
+        "text-font": ["Roboto Italic"],
         "text-letter-spacing": 0.2,
         "text-max-width": 5,
         "text-size": ["interpolate", ["linear"], ["zoom"], 0, 10, 8, 14]
@@ -2504,7 +2504,7 @@
           ["concat", ["get", "name:latin"], " ", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Italic"],
+        "text-font": ["Roboto Italic"],
         "text-letter-spacing": 0.2,
         "text-max-width": 5,
         "text-size": 14
@@ -2541,7 +2541,7 @@
           ["concat", ["get", "name:latin"], "\n", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Italic"],
+        "text-font": ["Roboto Italic"],
         "text-max-width": 9,
         "text-offset": [0, 0.6],
         "text-size": 12
@@ -2580,7 +2580,7 @@
           ["concat", ["get", "name:latin"], "\n", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Italic"],
+        "text-font": ["Roboto Italic"],
         "text-max-width": 9,
         "text-offset": [0, 0.6],
         "text-size": 12
@@ -2619,7 +2619,7 @@
           ["concat", ["get", "name:latin"], "\n", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Italic"],
+        "text-font": ["Roboto Italic"],
         "text-max-width": 9,
         "text-offset": [0, 0.6],
         "text-size": 12
@@ -2653,7 +2653,7 @@
           ["concat", ["get", "name:latin"], "\n", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Italic"],
+        "text-font": ["Roboto Italic"],
         "text-max-width": 9,
         "text-offset": [0.9, 0],
         "text-size": 12
@@ -2680,7 +2680,7 @@
           ["concat", ["get", "name:latin"], " ", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Regular"],
+        "text-font": ["Roboto Regular"],
         "text-rotation-alignment": "map",
         "text-size": ["interpolate", ["linear"], ["zoom"], 13, 12, 14, 13]
       },
@@ -2715,7 +2715,7 @@
           ["concat", ["get", "name:latin"], " ", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Regular"],
+        "text-font": ["Roboto Regular"],
         "text-rotation-alignment": "map",
         "text-size": ["interpolate", ["linear"], ["zoom"], 13, 12, 14, 13]
       },
@@ -2746,7 +2746,7 @@
           ["concat", ["get", "name:latin"], " ", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Regular"],
+        "text-font": ["Roboto Regular"],
         "text-rotation-alignment": "map",
         "text-size": ["interpolate", ["linear"], ["zoom"], 13, 12, 14, 13]
       },
@@ -2787,7 +2787,7 @@
         "symbol-placement": ["step", ["zoom"], "point", 11, "line"],
         "symbol-spacing": 200,
         "text-field": ["to-string", ["get", "ref"]],
-        "text-font": ["Noto Sans Regular"],
+        "text-font": ["Roboto Regular"],
         "text-rotation-alignment": "viewport",
         "text-size": 10
       }
@@ -2822,7 +2822,7 @@
         "symbol-placement": ["step", ["zoom"], "point", 7, "line", 8, "line"],
         "symbol-spacing": 200,
         "text-field": ["to-string", ["get", "ref"]],
-        "text-font": ["Noto Sans Regular"],
+        "text-font": ["Roboto Regular"],
         "text-rotation-alignment": "viewport",
         "text-size": 10
       }
@@ -2857,7 +2857,7 @@
         "symbol-placement": ["step", ["zoom"], "point", 11, "line"],
         "symbol-spacing": 200,
         "text-field": ["to-string", ["get", "ref"]],
-        "text-font": ["Noto Sans Regular"],
+        "text-font": ["Roboto Regular"],
         "text-rotation-alignment": "viewport",
         "text-size": 10
       }
@@ -2879,7 +2879,7 @@
           ["concat", ["get", "name:latin"], "\n", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Regular"],
+        "text-font": ["Roboto Regular"],
         "text-max-width": 9,
         "text-offset": [0, 0.6],
         "text-optional": true,
@@ -2913,7 +2913,7 @@
           ["concat", ["get", "name:latin"], "\n", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Italic"],
+        "text-font": ["Roboto Italic"],
         "text-letter-spacing": 0.1,
         "text-max-width": 9,
         "text-size": ["interpolate", ["linear"], ["zoom"], 8, 9, 12, 10],
@@ -2945,7 +2945,7 @@
           ["concat", ["get", "name:latin"], "\n", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Regular"],
+        "text-font": ["Roboto Regular"],
         "text-max-width": 8,
         "text-size": [
           "interpolate",
@@ -2983,7 +2983,7 @@
           ["concat", ["get", "name:latin"], "\n", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Regular"],
+        "text-font": ["Roboto Regular"],
         "text-max-width": 8,
         "text-size": [
           "interpolate",
@@ -3017,7 +3017,7 @@
           ["concat", ["get", "name:latin"], "\n", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Italic"],
+        "text-font": ["Roboto Italic"],
         "text-letter-spacing": 0.2,
         "text-max-width": 9,
         "text-size": ["interpolate", ["linear"], ["zoom"], 5, 10, 8, 14],
@@ -3053,7 +3053,7 @@
           ["concat", ["get", "name:latin"], "\n", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Regular"],
+        "text-font": ["Roboto Regular"],
         "text-max-width": 8,
         "text-offset": [0, -0.1],
         "text-size": [
@@ -3098,7 +3098,7 @@
           ["concat", ["get", "name:latin"], "\n", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Bold"],
+        "text-font": ["Roboto Bold"],
         "text-max-width": 8,
         "text-offset": [0, -0.2],
         "text-size": [
@@ -3139,7 +3139,7 @@
           ["concat", ["get", "name:latin"], "\n", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Bold"],
+        "text-font": ["Roboto Bold"],
         "text-max-width": 6.25,
         "text-size": ["interpolate", ["linear"], ["zoom"], 3, 9, 7, 17]
       },
@@ -3168,7 +3168,7 @@
           ["concat", ["get", "name:latin"], "\n", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Bold"],
+        "text-font": ["Roboto Bold"],
         "text-max-width": 6.25,
         "text-size": ["interpolate", ["linear"], ["zoom"], 2, 9, 5, 17]
       },
@@ -3197,7 +3197,7 @@
           ["concat", ["get", "name:latin"], "\n", ["get", "name:nonlatin"]],
           ["coalesce", ["get", "name_en"], ["get", "name"]]
         ],
-        "text-font": ["Noto Sans Bold"],
+        "text-font": ["Roboto Bold"],
         "text-max-width": 6.25,
         "text-size": ["interpolate", ["linear"], ["zoom"], 1, 9, 4, 17]
       },
